@@ -107,6 +107,7 @@ class RestaurantCard extends StatelessWidget {
   }
 }
 
+
 class _RatingBadge extends StatelessWidget {
   const _RatingBadge({required this.rating});
 

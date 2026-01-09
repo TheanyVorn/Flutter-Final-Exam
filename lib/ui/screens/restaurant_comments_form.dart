@@ -72,20 +72,7 @@ class _RestaurantCommentsFormState extends State<RestaurantCommentsForm> {
             children: [
               const Text('Rating: '),
               const SizedBox(width: 8),
-              Expanded(
-                child: Slider(
-                  value: _rating.toDouble(),
-                  min: 1,
-                  max: 5,
-                  divisions: 4,
-                  label: _rating.toString(),
-                  onChanged: (value) {
-                    setState(() {
-                      _rating = value.toInt();
-                    });
-                  },
-                ),
-              ),
+              
               Text('$_rating'),
             ],
           ),

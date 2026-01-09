@@ -29,6 +29,7 @@ class MyApp extends StatelessWidget {
         address: 'Phnom Penh',
         type: RestaurantType.khmer,
         rating: 0.0,
+        
       ),
 
       Restaurant(
